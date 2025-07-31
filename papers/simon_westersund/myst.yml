@@ -1,4 +1,5 @@
 # See docs at: https://mystmd.org/guide/frontmatter
+version: 1
 extends: ../papers.yml
 project:
   id: good-2025-simon_westersund

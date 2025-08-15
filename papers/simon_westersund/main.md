@@ -470,10 +470,10 @@ sleep times (@fig:passenger_sleep_time_benchmarks).
 :align: center
 
 (fig_dynamic_static_sleep_cpu)=
-![Dynamic vs. static 5s sleep CPU load](chart-dynamic-vs-static-sleep-cpu.png)
+![Dynamic vs. static 5s sleep CPU load](chart-dynamic-vs-static-sleep-cpu.svg)
 
 (fig_dynamic_static_sleep_close_calls)=
-![Dynamic vs. static 5s sleep close calls](chart-dynamic-vs-static-sleep-close-calls.png)
+![Dynamic vs. static 5s sleep close calls](chart-dynamic-vs-static-sleep-close-calls.svg)
 
 The impact of moving from dynamic sleep intervals to static sleeping was already measurable.
 :::
@@ -483,10 +483,10 @@ The impact of moving from dynamic sleep intervals to static sleeping was already
 :align: center
 
 (fig_sleep_intervals_cpu)=
-![CPU load for different sleep intervals](chart-sleep-times-cpu.png)
+![CPU load for different sleep intervals](chart-sleep-times-cpu.svg)
 
 (fig_sleep_intervals_close_calls)=
-![Close calls per minute for different sleep intervals](chart-sleep-times-close-calls.png)
+![Close calls per minute for different sleep intervals](chart-sleep-times-close-calls.svg)
 
 A longer sleep interval dramatically decreases the CPU load, especially for higher PUN counts.
 :::

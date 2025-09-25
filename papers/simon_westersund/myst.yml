@@ -13,10 +13,12 @@ project:
   authors:
     - name: Simon Westersund
       email: simon.westersund+good25proceedings@csc.fi
+      orcid: 0009-0004-5656-729X
       affiliations:
         - CSC – IT Center for Science Ltd.
       corresponding: true
     - name: Robin Karlsson
+      orcid: 0009-0004-2824-5138
       affiliations:
         - CSC – IT Center for Science Ltd.
       corresponding: false

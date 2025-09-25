@@ -34,4 +34,21 @@ project:
     UID: User ID
     vCPU: virtual Central Processing Unit
     VM: Virtual Machine
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cscfi
+        - OscUserMapping
+        - PhusionPassenger
+        - PassengerAnalyticsTiming
+        - PassengerPsCall
+        - PassengerHighestFdTimeout
+        - PassengerHighestFdFallback
+        - GreggSystemsPerformance
+        - PassengerLicense
+        - OodPackagingPr
+        - OodRelease3112
+        - OodRelease404
+        - SlurmPrivateData
 
